@@ -15,6 +15,6 @@ int main(){
     int arr[] = { 7, 10, 4, 3, 20, 15};
     int N = sizeof(arr) / sizeof(arr[0]), K = 3;
 
-    cout << "K'th smallest element is "<< kthSmallest(arr, N, K);
+    cout << kthSmallest(arr, N, K);
     return 0;
 }
